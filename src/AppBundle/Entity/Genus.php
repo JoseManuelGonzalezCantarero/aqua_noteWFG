@@ -33,10 +33,10 @@ class Genus
     private $speciesCount;
 
     /**
-     * @ORM\Column(type="string")
+     * @ORM\Column(type="string", nullable=true)
      */
     private $funFact;
-    
+
     public function getName()
     {
         return $this->name;
