@@ -36,7 +36,12 @@ class GenusNote
      * @ORM\Column(type="datetime")
      */
     private $createdAt;
-    
+
+    /**
+     * @ORM\ManyToOne(targetEntity="AppBundle\Entity\Genus")
+     */
+    private $genus;
+
     public function getId()
     {
         return $this->id;
