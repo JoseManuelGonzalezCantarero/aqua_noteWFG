@@ -2576,16 +2576,16 @@
         },
         {
             "name": "nelmio/alice",
-            "version": "2.2.0",
+            "version": "2.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nelmio/alice.git",
-                "reference": "11de5826323f1fe530a2dd2f50fffcb300b1af75"
+                "reference": "be940d30a450043c7991f2bc6ad19682db98c8cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nelmio/alice/zipball/11de5826323f1fe530a2dd2f50fffcb300b1af75",
-                "reference": "11de5826323f1fe530a2dd2f50fffcb300b1af75",
+                "url": "https://api.github.com/repos/nelmio/alice/zipball/be940d30a450043c7991f2bc6ad19682db98c8cf",
+                "reference": "be940d30a450043c7991f2bc6ad19682db98c8cf",
                 "shasum": ""
             },
             "require": {
@@ -2635,7 +2635,7 @@
                 "orm",
                 "test"
             ],
-            "time": "2016-07-11 10:42:26"
+            "time": "2016-07-15 19:50:38"
         },
         {
             "name": "sensio/generator-bundle",
