@@ -38,15 +38,10 @@ class GenusNote
     private $createdAt;
 
     /**
-     * @ORM\ManyToOne(targetEntity="AppBundle\Entity\Genus", inversedBy="notes")
+     * @ORM\ManyToOne(targetEntity="Genus", inversedBy="notes")
      * @ORM\JoinColumn(nullable=false)
      */
     private $genus;
-
-    public function getId()
-    {
-        return $this->id;
-    }
 
     public function getUsername()
     {
@@ -96,5 +91,10 @@ class GenusNote
     public function setGenus(Genus $genus)
     {
         $this->genus = $genus;
+    }
+
+    public function getId()
+    {
+        return $this->id;
     }
 }
